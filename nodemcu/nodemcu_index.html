@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (Linux)"/>
+	<meta name="author" content="Peter Fürle"/>
+	<meta name="created" content="2021-06-28T12:17:54.156109212"/>
+	<meta name="changedby" content="Peter Fürle"/>
+	<meta name="changed" content="2021-06-28T19:43:51.667630377"/>
+</head>
+<body lang="de-DE" dir="ltr"><p align="center"><font color="#c9211e"><font face="Bitstream Vera Sans Mono, monospace"><font size="4" style="font-size: 14pt">NodeMCU
+8266 LolinV3 an YYG-3 Zweifach-Relaisboard.</font></font></font></p>
+<p align="center"><font face="Bitstream Vera Sans Mono, monospace">Ansteuerung
+mit Taster zwischen D2 und GND per Website </font>
+</p>
+<p align="center"><font face="Bitstream Vera Sans Mono, monospace">per
+curl -I -XGET 'http://192.168.20.129/?relais=2'</font></p>
+<p align="center"><font face="Bitstream Vera Sans Mono, monospace">Verbinung
+zum Relais von GND, VV(5V):</font></p>
+<p align="center" style="margin-bottom: 0cm"><font face="Bitstream Vera Sans Mono, monospace">#define
+RelaisPin 5   // GPIO5 ist D1 </font>
+</p>
+<p align="center" style="margin-bottom: 0cm"><font face="Bitstream Vera Sans Mono, monospace">#define
+RelaisPin2 14 // GPIO14 ist D5</font></p>
+<p align="center" style="margin-bottom: 0cm"><br/>
+
+</p>
+<p align="center"><font face="Bitstream Vera Sans Mono, monospace">Peter
+F. aus H. im Juni 2021</font></p>
+</body>
+</html>
